@@ -1,20 +1,10 @@
-
-
 <!DOCTYPE html>
-
-
-
-
-
 
 <head>
 
-
 <meta
 
-
 name="description"
-
 
 content="Create your own designs with Canvas. Express yourself with natural brushes and hand-picked colors. Never lose a masterpiece with automatic syncing to your Google account.">
 
@@ -218,7 +208,7 @@ SPDX-License-Identifier: Apache-2.0
 */
 
 
-var na={};function E(){}function F(a){this.g=a}F.prototype=da(E.prototype);F.prototype.constructor=F;if(ha)ha(F,E);else for(var G in E)if("prototype"!=G)if(Object.defineProperties){var oa=Object.getOwnPropertyDescriptor(E,G);oa&&Object.defineProperty(F,G,oa)}else F[G]=E[G];F.prototype.toString=function(){return this.g};var pa=new F("about:invalid#zTSz",na);function H(a){this.H=a}function I(a){return new H(function(b){return b.substr(0,a.length+1).toLowerCase()===a+":"})}var qa=[I("data"),I("http"),I("https"),I("mailto"),I("ftp"),new H(function(a){return/^[^:]*([/?#]|$)/.test(a)})];var J;function K(a,b){this.h=a===ra&&b||"";this.g=sa}function L(a){return a instanceof K&&a.constructor===K&&a.g===sa?a.h:"type_error:Const"}function M(a){return new K(ra,a)}var sa={},ra={};function N(a,b){this.g=b===ta?a:""}N.prototype.toString=function(){return this.g+""};var ua=/%{(\w+)}/g,va=RegExp("^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|about:blank#)","i"),ta={};function O(a){if(void 0===J){var b=null;var d=C.trustedTypes;if(d&&d.createPolicy){try{b=d.createPolicy("goog#html",{createHTML:D,createScript:D,createScriptURL:D})}catch(e){C.console&&C.console.error(e.message)}J=b}else J=b}a=(b=J)?b.createScriptURL(a):a;return new N(a,ta)};function S(a,b){this.g=b===wa?a:""}S.prototype.toString=function(){return this.g.toString()};var wa={};function xa(a){if(a instanceof E)if(a instanceof F)a=a.g;else throw Error("");else a=a instanceof S&&a.constructor===S?a.g:"type_error:SafeUrl";return a};function ya(){return(za||self.location).host.endsWith(".googleplex.com")}var za=null;
+var na={};function E(){}function F(a){this.g=a}F.prototype=da(E.prototype);F.prototype.constructor=F;if(ha)ha(F,E);else for(var G in E)if("prototype"!=G)if(Object.defineProperties){var oa=Object.getOwnPropertyDescriptor(E,G);oa&&Object.defineProperty(F,G,oa)}else F[G]=E[G];F.prototype.toString=function(){return this.g};var pa=new F("about:invalid#zTSz",na);function H(a){this.H=a}function I(a){return new H(function(b){return b.substr(0,a.length+1).toLowerCase()===a+":"})}var qa=[I("data"),I("http"),I("https"),I("mailto"),I("ftp"),new H(function(a){return/^[^:]*([/?#]|$)/.test(a)})];var J;function K(a,b){this.h=a===ra&&b||"";this.g=sa}function L(a){return a instanceof K&&a.constructor===K&&a.g===sa?a.h:"type_error:Const"}function M(a){return new K(ra,a)}var sa={},ra={};function N(a,b){this.g=b===ta?a:""}N.prototype.toString=function(){return this.g+""};var ua=/%{(\w+)}/g,va=RegExp("^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|about:blank#)","i"),ta={};function O(a){if(void 0===J){var b=null;var d=C.trustedTypes;if(d&&d.createPolicy){try{b=d.createPolicy("goog#html",{createHTML:D,createScript:D,createScriptURL:D})}catch(e){C.console&&C.console.error(e.message)}J=b}else J=b}a=(b=J)?b.createScriptURL(a):a;return new N(a,ta)};function S(a,b){this.g=b===wa?a:""}S.prototype.toString=function(){return this.g.toString()};var wa={};function xa(a){if(a instanceof E)if(a instanceof F)a=a.g;else throw Error("");else a=a instanceof S&&a.constructor===S?a.g:"type_error:SafeUrl";return a};function ya(){return(za||self.location).host.endsWith}var za=null;
 
 
 function Aa(){var a;la(new ka(new ia(function(b){switch(b.h){case 1:if(!ya())return b.return();b.l=2;var d=fetch("/uncached",{redirect:"manual"});b.h=4;return{value:d};case 4:a=b.o;b.h=3;b.l=0;break;case 2:return b.l=0,b.i=null,b.return();case 3:if("opaqueredirect"===a.type){d=za||self.location;var e=void 0===e?qa:e;a:{e=void 0===e?qa:e;for(var g=0;g<e.length;++g){var l=e[g];if(l instanceof H&&l.H("/uncached")){e=new F("/uncached",na);break a}}e=void 0}d.href=xa(e||pa)}b.h=0}})))};var T="af am ar az be bg bn bs ca cs da de el en en_gb es es_419 et eu fa fi fil fr fr_ca gl gu hi hr hu hy id is it iw ja ka kk km kn ko ky lo lt lv mk ml mn mr ms my ne nl no pa pl pt_br pt_pt ro ru si sk sl sq sr sv sw ta te th tk tr uk ur uz vi zh_cn zh_hk zh_tw zu en_xa ar_xb".split(" ");function Ba(a){var b=U;b=void 0===b?T:b;a=a.replace("-","_").toLowerCase();if(b.includes(a))return a;a=(a=a.match(/^\w{2,3}([-_]|$)/))?a[0].replace(/[_-]/g,""):"";return b.includes(a)?a:null};var V,W=void 0;W=void 0===W?T:W;var X,Y,Ca=null===(X=self.document)||void 0===X?void 0:X.documentElement.lang,Z=Ca?Ca:navigator.language;Z="he"===Z?"iw":Z;var Da=void 0!==(null===(Y=self.location)||void 0===Y?void 0:Y.search)?self.location.search:"",Ea="nb"===Z?"no":Z,U=W;U=void 0===U?T:U;var Fa=new URLSearchParams(Da),Ga=Fa.has("hl")?Ba(Fa.get("hl")):null;if(Ga)V=Ga;else{var Ha=Ba(Ea);V=Ha?Ha:"en"}
